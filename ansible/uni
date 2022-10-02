@@ -1,0 +1,7 @@
+---
+- hosts: local
+  vars:
+    somevar: "value"
+
+  roles:
+  - Flet
