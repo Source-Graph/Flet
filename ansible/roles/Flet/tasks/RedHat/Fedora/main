@@ -1,8 +1,7 @@
 ---
-- name: Install 
+- name: install python3-pip
   ansible.builtin.dnf:
     name:
-      - httpd
-      - mariadb-server
+      - python3-pip
     state: latest
   become: true

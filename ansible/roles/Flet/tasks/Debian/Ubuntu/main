@@ -1,7 +1,6 @@
 ---
-- name: Install 
+- name: install python3-pip
   ansible.builtin.apt:
     pkg:
-    - foo
-    - foo-tools
+    - python3-pip
   become: true
